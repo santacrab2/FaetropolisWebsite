@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: Black;
+}
+
+.banner {
+    background: linear-gradient(to right, #4682B4, #556B2F);
+    color: transparent;
+    text-align: center;
+    padding: 20px;
+    font-size: 4em;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    font-family: Papyrus;
+}
+#titletext{
+    background: linear-gradient(to right, #046900, #2704c0);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+#titletext2{
+    color: transparent;
+    background: linear-gradient(to right, #046900, #2704c0);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.parallax-section {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+#hero {
+    background: linear-gradient(to bottom, #87CEEB, #98FB98);
+}
+
+#about{
+    background: linear-gradient(to bottom, #FFD700, #FF6347);
+}
+
+#features {
+    background: linear-gradient(to bottom, #DA70D6, #9370DB);
+}
+
+#contact {
+    background: linear-gradient(to bottom, #20B2AA, #FF69B4);
+}
+
+.content {
+    text-align: center;
+    max-width: 800px;
+    padding: 20px;
+    
+    z-index: 1;
+}
+#fairyrender{
+    position: absolute;
+    right: 20px;
+}
+h1, h2 {
+    margin: 0 0 20px 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
