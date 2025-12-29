@@ -14,7 +14,7 @@ body {
     position: sticky;
     top: 0;
     z-index: 10;
-    font-family: Papyrus;
+    font-family:"Underdog", Papyrus;
 }
 #titletext{
     background: linear-gradient(to right, #046900, #2704c0);
