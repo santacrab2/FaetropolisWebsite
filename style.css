@@ -36,6 +36,24 @@ body {
     background: linear-gradient(to bottom, #556B2F, #4682B4);
 }
 
+
+
+#hero {
+    background: linear-gradient(to bottom, #556B2F, #4682B4);
+}
+
+#about{
+    background: linear-gradient(to bottom, #4682B4, #556B2F);
+}
+
+#features {
+    background: linear-gradient(to bottom, #556B2F, #4682B4);
+}
+
+#contact {
+    background: linear-gradient(to bottom, #4682B4, #556B2F);
+}
+
 .content {
     text-align: center;
     max-width: 800px;
