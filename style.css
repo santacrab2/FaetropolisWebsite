@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: "Rubik Distressed";
     color: Black;
 }
 
@@ -33,25 +33,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    
-}
-
-
-
-#hero {
-    background: linear-gradient(to bottom, #87CEEB, #98FB98);
-}
-
-#about{
-    background: linear-gradient(to bottom, #FFD700, #FF6347);
-}
-
-#features {
-    background: linear-gradient(to bottom, #DA70D6, #9370DB);
-}
-
-#contact {
-    background: linear-gradient(to bottom, #20B2AA, #FF69B4);
+    background: linear-gradient(to bottom, #556B2F, #4682B4);
 }
 
 .content {
@@ -63,11 +45,11 @@ body {
 }
 #fairyrender{
     position: absolute;
-    right: 20px;
+    right: 0%;
 }
 #faetropolisjar{
     position: absolute;
-    left: 20px;
+    left: 0%;
 }
 h1, h2 {
     margin: 0 0 20px 0;
