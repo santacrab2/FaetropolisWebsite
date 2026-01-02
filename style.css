@@ -1,7 +1,8 @@
 body {
     margin: 0;
-    font-family: "Rubik Distressed";
+    font-family: "fairyfont";
     color: Black;
+    font-size: 2em;
 }
 
 .banner {
@@ -77,6 +78,7 @@ body {
 }
 h1, h2 {
     margin: 0 0 20px 0;
+    font-family: "underdog";
 }
 
 ul {
@@ -86,4 +88,9 @@ ul {
 
 li {
     margin: 10px 0;
+}
+
+@font-face {
+    font-family: FairyFont;
+    src: url(resources/Dearest\ Dorothy.ttf);
 }
