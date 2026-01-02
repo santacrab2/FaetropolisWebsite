@@ -5,7 +5,10 @@ body {
 }
 
 .banner {
-    background: linear-gradient(to right, #4682B4, #556B2F);
+    background-image: url("resources/bannerbg.png");
+    background-color: #556B2F;
+    background-size: cover;
+    background-repeat: no-repeat;
     color: transparent;
     text-align: center;
     padding: 20px;
@@ -26,6 +29,7 @@ body {
     background: linear-gradient(to right, #046900, #2704c0);
     background-clip: text;
     -webkit-background-clip: text;
+    font-family:"Underdog", Papyrus;
 }
 .parallax-section {
     position: relative;
@@ -64,10 +68,12 @@ body {
 #fairyrender{
     position: absolute;
     right: 0%;
+    z-index: 1;
 }
 #faetropolisjar{
     position: absolute;
     left: 0%;
+    z-index: 1;
 }
 h1, h2 {
     margin: 0 0 20px 0;
