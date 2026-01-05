@@ -2,7 +2,6 @@ body {
     margin: 0;
     font-family: "Underdog";
     color: Black;
-    font-size: 2em;
     background-color: #556B2F;
 }
 
@@ -79,7 +78,7 @@ body {
 h1, h2 {
     margin: 0 0 20px 0;
     font-family: "Underdog";
-    font-size: 3em;
+    font-size: 4em;
 }
 
 ul {
