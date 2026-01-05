@@ -3,11 +3,11 @@ body {
     font-family: "Underdog";
     color: Black;
     font-size: 2em;
+    background-color: #556B2F;
 }
 
 .banner {
-    background-image: url("resources/banner.png");
-    background-color: #556B2F;
+    background-color: transparent;
     background-size: cover;
     background-repeat: no-repeat;
     color: transparent;
