@@ -1,20 +1,18 @@
 body {
     margin: 0;
-    font-family: "fairyfont";
+    font-family: "Underdog";
     color: Black;
     font-size: 2em;
 }
 
 .banner {
-    background-image: url("resources/bannerbg.png");
+    background-image: url("resources/banner.png");
     background-color: #556B2F;
     background-size: cover;
     background-repeat: no-repeat;
     color: transparent;
     text-align: center;
-    padding: 20px;
-    font-size: 4em;
-    font-weight: bold;
+    height: 150px;
     position: sticky;
     top: 0;
     z-index: 10;
@@ -30,7 +28,9 @@ body {
     background: linear-gradient(to right, #046900, #2704c0);
     background-clip: text;
     -webkit-background-clip: text;
-    font-family:"Underdog", Papyrus;
+    font-family:"FairyFont", Papyrus;
+    font-weight: lighter;
+    
 }
 .parallax-section {
     position: relative;
@@ -78,7 +78,8 @@ body {
 }
 h1, h2 {
     margin: 0 0 20px 0;
-    font-family: "underdog";
+    font-family: "Underdog";
+    font-size: 3em;
 }
 
 ul {
